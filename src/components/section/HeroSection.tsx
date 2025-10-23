@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import DottedGlowBackground from "@/component/ui/dotted-glow-background";
+import DottedGlowBackground from "@/components/ui/dotted-glow-background";
 
 export default function HeroSection() {
   const [pixelRatio, setPixelRatio] = useState(1);
