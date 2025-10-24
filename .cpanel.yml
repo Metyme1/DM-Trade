@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dmtradzg/public_html/
+    - /bin/rm -rf $DEPLOYPATH/*
+    - npm install
+    - npm run build
+    - npm run export
+    - /bin/cp -R out/* $DEPLOYPATH

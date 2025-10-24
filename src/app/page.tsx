@@ -1,13 +1,13 @@
-import { NavbarDemo } from "@/components/ui/navbar";
-import HeroBackground from "@/components/section/HeroSection";
-import Footer from "@/components/ui/footer";
+import Navbar from "@/components/pages/navbar";
+import HeroSection from "@/components/section/HeroSection";
+// import Footer from "@/components/pages/footer";
 
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
-      <NavbarDemo />
-      <HeroBackground />
-      <Footer />
+      <Navbar />
+      <HeroSection />
+      {/* <Footer /> */}
     </main>
   );
 }
